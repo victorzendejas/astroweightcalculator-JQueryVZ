@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- title for the tab  -->
+    <title>Astro Calculator JQuery </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="page-header"> Astro Weight Calculator JQuery</h1>
+        
+    </header>
+    <section>
+            <div class="form-group">
+                <label for="weight">Your Weight:</label>
+           <!--  get user weight -->
+                <input type="text" id="weight" 
+                placeholder="Enter Weight">
+           
+                 <label>Select Planet:</label>
+            <!-- planet options and their values -->
+                <select id='gravity'></select>
+             
+			<!-- calculate button -->
+            <button type="button" id="button" class = "form-group btn btn-primary">Calculate</button>
+            </div>      
+    </section>
+    <p id="results" class="well well-sm"></p>
+   
+    <!-- refrence to javascript code -->
+    <script src="index.js"></script>
+</body>
+</html>
